@@ -70,8 +70,6 @@ local function loop()
   if not DoesShopPedApparelHaveRestrictionTag(maskHash, `SHRINK_HEAD`, 0) then
     if isHeadShrunken then
       CreateThread(function()
-        --print('Mask does not need shrinking, but head is shrunken, fixing...')
-
         SetPedHeadBlendData(ped,
           savedBlendData.shapeFirst, savedBlendData.shapeSecond, savedBlendData.shapeThird,
           savedBlendData.skinFirst, savedBlendData.skinSecond, savedBlendData.skinThird,
@@ -87,8 +85,6 @@ local function loop()
     end
     return
   end
-
-  --print('Shrink head mask detected, fixing...')
 
   local headBlendData<const> = getHeadBlendData(ped)
 
