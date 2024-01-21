@@ -1,6 +1,6 @@
 local freemodeModels<const> = {
   [`mp_m_freemode_01`] = 'mp_m_freemode_01',
-  [`mp_f_freemode_01`] = 'mp_m_freemode_01'
+  [`mp_f_freemode_01`] = 'mp_f_freemode_01'
 }
 
 ---Is the model either of the freemode models?
