@@ -12,7 +12,7 @@ end
 ---Gets head blend data
   ---@param ped integer
   ---@return { shapeFirst: integer, shapeSecond: integer, shapeThird: integer, skinFirst: integer, skinSecond: integer, skinThird: integer, shapeMix: number, skinMix: number, thirdMix: number }
-local getHeadBlendData = function(ped)
+local function getHeadBlendData(ped)
   -- GTA returns some dumb struct with pointers
   -- This is a goofy way to get the data in Lua.
   -- Alternatively, you would need a C# or JS
