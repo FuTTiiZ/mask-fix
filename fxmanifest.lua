@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'FuTTiiZ'
 description 'Fix face clipping through masks'
-version '1.0.0'
+version '1.1.0'
 
 -- Lua 5.4
 lua54 'yes'
