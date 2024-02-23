@@ -6,4 +6,5 @@ This is a standalone resource. Make your own framework-specific integration if n
 
 ![Preview](https://i.imgur.com/4l9GZcT.png)
 
-Preview Video: https://www.youtube.com/watch?v=QCtMBiAvHYU
+Preview Video:
+https://www.youtube.com/watch?v=JtQv6e1fLpk
