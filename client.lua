@@ -71,7 +71,7 @@ local function restoreSavedBlendData(ped)
   )
 end
 
----Shrinks face features
+---Restores saved face features
   ---@param ped integer
 local function restoreSavedFaceFeatures(ped)
   for i = 0, 19 do
